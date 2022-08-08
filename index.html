@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fb login page</title>
+    <link rel="stylesheet" href="Index.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="Index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email\Mobile</label></td>
+
+                            <td><label class="login-label">password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="sub-btn" type="submit" value="login"></td>
+                        </tr>
+                        <tr>
+                            <td><a class="forgot" href="forgot.html"> forgot account</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <h class="para">Create a new account</h>
+        <p class="small-para">its quick & easy</p>
+        <form class="signup-form" action="Index.html" id="signup-form">
+            <div class="name">
+                <input name="fname" class="field" type="text" placeholder="First Name">
+                <input name="sname" class="field" type="text" placeholder="Last Name">
+            </div>
+            <div class="second">
+                <input name="emailAddress" class="field2" type="text" placeholder="Email or phone">
+            </div>
+            <div class="second">
+                <input name="password" class="field2" type="text" placeholder="password">
+
+            </div>
+            <br>
+            <label class="birth">Birthday</label>
+            <br>
+            <div class="dob">
+                <select class="field3" name="day">
+                    <option value="">day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                <select class="field3" name="month">
+                    <option value="">month</option>
+                    <option value="jan">jan</option>
+                    <option value="feb">feb</option>
+                </select>
+                <select class="field3" name="year">
+                    <option value="">year</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                </select>
+            </div>
+            <br>
+            <label class="gender">Gender</label>
+            <br>
+            <div class="mfc">
+                <label>male</label>
+                <input name="male" type="radio">
+                <label>female</label>
+                <input name="male" type="radio">
+                <label>custom</label>
+                <input name="male" type="radio">
+            </div>
+            <div class="bigpara">
+                <h>By clicking sign up you <a href=""> agree to</a> our <a href="">terms</a> data policy & <br>cookies
+                    policy you may receive sms notification</h>
+            </div>
+            <div class="button">
+                <button class="field4">sign up</button>
+
+            </div>
+
+
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
