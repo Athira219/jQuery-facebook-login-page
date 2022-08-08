@@ -1,0 +1,153 @@
+.header {
+    background: rgb(57, 57, 134);
+    width: 100%;
+    height: 90px;
+
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.login {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 50%;
+    float: left;
+    padding-top: 32px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 170px;
+}
+
+.login-label {
+    color: white;
+    font-size: 15px;
+}
+
+.login-controls {
+    margin-left: 115px;
+}
+
+.forgot {
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+.sub-btn {
+    background: blue;
+    color: white;
+    height: 20px;
+    border-color: silver;
+    cursor: pointer;
+}
+
+.sub-btn:hover {
+    background: rgb(235, 15, 15);
+}
+
+.main-body {
+    width: 100%;
+    height: 530px;
+    background: rgb(235, 237, 240);
+    padding-top: 10px;
+}
+
+.para {
+    padding-left: 450px;
+    font-size: 40px;
+}
+
+.small-para {
+    font-size: 20px;
+    padding-left: 450px;
+    margin-top: 10px;
+}
+
+.name {
+    margin-left: 450px;
+
+
+}
+
+.field {
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+}
+
+.second {
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.field2 {
+    height: 35px;
+    width: 410px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+}
+
+.birth {
+    margin-left: 450px;
+    font-weight: bold;
+    color: grey;
+}
+
+.dob {
+    margin-left: 450px;
+    margin-top: 10px;
+
+}
+
+.field3 {
+    height: 35px;
+    width: 95px;
+    border: 1px solid #ccd0d5;
+}
+
+.gender {
+    margin-left: 450px;
+    font-weight: bold;
+    color: grey;
+
+}
+
+.mfc {
+    margin-left: 450px;
+    margin-top: 10px;
+
+}
+
+.bigpara {
+    font-size: 13px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-left: 530px;
+    margin-top: 20px;
+}
+
+.field4 {
+    height: 35px;
+    width: 135px;
+    background: linear-gradient(#40a826, #48d610);
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    cursor: pointer;
+}
